@@ -10,8 +10,8 @@ body {
 }
 .card {
   display: grid;
-  grid-template-columns: 300px;
-  grid-template-rows: 210px 210px 80px;
+  grid-template-columns: 400px;
+  grid-template-rows: 210px 310px 80px;
   grid-template-areas: "image" "text" "stats";
 
   border-radius: 18px;
@@ -121,8 +121,9 @@ body {
 
 .div-parraf {
   margin: 0;
-  height: 40%;
+  height: 65%;
   overflow-y: scroll;
+  
 }
 
 .div-parraf p {
